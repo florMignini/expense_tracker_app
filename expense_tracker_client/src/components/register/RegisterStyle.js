@@ -74,7 +74,7 @@ export const FormInput = styled.input`
 export const SubmitButton = styled.button`
   width: 30%;
   height: 10%;
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: 200;
   border: solid 0.2rem #ced4da;
   border-radius: 0.25rem;
