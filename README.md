@@ -3,7 +3,7 @@
   <p> Welcome to Expense Tracker App, the easiest way to follow your expenses!</p>
   ![Expense-Tracker-intro](https://github.com/florMignini/expense_tracker_app/blob/main/public/Expense-Tracker-intro.png)
   
-  <h2> User Login and Register </h2>
+  <h2> User Register and Login </h2>
   <p> create a user to start using the app </p>
   
   ![Expense-Tracker-register](https://github.com/florMignini/expense_tracker_app/blob/main/public/Expense-Tracker-register.png)
