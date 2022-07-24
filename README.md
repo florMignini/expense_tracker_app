@@ -11,3 +11,6 @@
   <p> If you are already registered, sign in and begin using the app! </p>
   
   ![Expense-Tracker-sigIn](https://github.com/florMignini/expense_tracker_app/blob/main/public/Expense-Tracker-signIn.png)
+
+  <h2> Let's begin </h2>
+  ![Expense-Tracker-dashboard](
