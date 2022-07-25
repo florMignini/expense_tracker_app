@@ -20,6 +20,6 @@
   ![Expense-Tracker-dashboard](https://github.com/florMignini/expense_tracker_app/blob/main/public/Expense-Tracker-dashboard.png)
   
   
-  <p> follow your moevements </p>
+  <p> follow your movements </p>
   
   ![Expense-Tracker-movements](https://github.com/florMignini/expense_tracker_app/blob/main/public/Expense-Tracker-movements.png)
