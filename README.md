@@ -26,12 +26,13 @@
 
   
   <h1>Run the project</h1>
-  # Run frontend (:3000) 
+  
+  Run frontend (:3000) 
   
   cd expense_tracker_client
   
   npm run dev
 
-  # Run backend (:4000)
+  Run backend (:4000)
   
   npm run server
