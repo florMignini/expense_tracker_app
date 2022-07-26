@@ -23,3 +23,12 @@
   <p> follow your movements </p>
   
   ![Expense-Tracker-movements](https://github.com/florMignini/expense_tracker_app/blob/main/public/Expense-Tracker-movements.png)
+
+  
+  <h1>Run the project</h1>
+  # Run frontend (:3000) 
+  cd expense_tracker_client
+  npm run dev
+
+  # Run backend (:4000)
+  npm run server
