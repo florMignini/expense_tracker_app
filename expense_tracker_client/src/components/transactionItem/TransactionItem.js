@@ -28,12 +28,11 @@ import {
 
 export default function TransactionItem() {
   const { transactions } = useSelector((store) => store.transactions);
-
   const [editItem, setEditItem] = useState(false);
   //modal state
   const [isOpen, setIsOpen] = useState(false);
   //form state
-  const [amount, setAmount] = useState("$ 0");
+  const [amount, setAmount] = useState("");
   const [operation, setOperation] = useState(null);
   const [category, setCategory] = useState(null);
   const [idSelected, setIdSelected] = useState("");
@@ -55,11 +54,11 @@ export default function TransactionItem() {
       operation,
       category,
     };
-    const dataToUSe = {
+    const dataToUse = {
       idSelected,
       newValues,
     };
-    dispatch(updateTransaction(dataToUSe));
+    dispatch(updateTransaction(dataToUse));
     closeModal();
   };
   return (
@@ -81,7 +80,7 @@ export default function TransactionItem() {
               >
                 <TrashIcon />
               </IconStyles>
-              <IconStyles
+              {/*   <IconStyles
                 onClick={() => {
                   setEditItem(!editItem);
                   setIdSelected(item.id);
@@ -89,7 +88,7 @@ export default function TransactionItem() {
                 }}
               >
                 <PencilIcon />
-              </IconStyles>
+              </IconStyles> */}
             </ButtonsSection>
 
             <TransactionDate operation={item.operation}>
@@ -99,7 +98,7 @@ export default function TransactionItem() {
         </Container>
       ))}
 
-      {editItem && (
+      {/*  {editItem && (
         <Modal open={isOpen} onClose={closeModal}>
           <FormContainer onSubmit={handleSubmit}>
             <FormTitle> EDIT TRANSACTION</FormTitle>
@@ -140,7 +139,7 @@ export default function TransactionItem() {
             <SubmitButton type="submit">edit transaction</SubmitButton>
           </FormContainer>
         </Modal>
-      )}
+      )} */}
     </div>
   );
 }

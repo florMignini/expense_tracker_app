@@ -27,6 +27,7 @@ export const TransactionContainerItems = styled.div`
 export const TransactionName = styled.h4`
   display: grid;
   align-content: center;
+  justify-items: center;
   color: ${(props) => (props.operation === "income" ? "#2b8a3e" : "#ff2500")};
   font-size: 2.5rem;
   font-weight: 600;
@@ -41,6 +42,7 @@ export const TransactionName = styled.h4`
 export const TransactionDate = styled.h4`
   display: grid;
   align-content: center;
+  justify-items: center;
   color: ${(props) => (props.operation === "income" ? "#2b8a3e" : "#ff2500")};
   font-size: 1.2rem;
   font-weight: 400;
